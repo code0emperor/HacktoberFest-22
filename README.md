@@ -8,12 +8,12 @@ Contribute to get started
 <hr/>
 <pre>
 <code>
-1) Fork and Clone this repo using $git
-2) Do ... changes (follow Getting Started Steps)
-3) Commit and push to your forked version !
-4) Github will tell that "your branch is ahead of original repo . Do you wanna make a pull request ?" Go for it
-5) After making pull request , go to "Issues" tab of repository and create new issue , body of which contains what you have done and a request to assign it to you.
-6) After verification of your Pull Request (PR) we'll close the issue .
+    1) Fork and Clone this repo using $git
+    2) Do ... changes (follow Getting Started Steps)
+    3) Commit and push to your forked version !
+    4) Github will tell that "your branch is ahead of original repo . Do you wanna make a pull request ?" Go for it
+    5) After making pull request , go to "Issues" tab of repository and create new issue , body of which contains what you have done and a request to assign it to you.
+    6) After verification of your Pull Request (PR) we'll close the issue .
 </code>
 </pre>
 
