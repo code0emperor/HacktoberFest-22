@@ -24,10 +24,15 @@ Contribute to get started
 <li>Clone your fork down to your local machine <br/> <pre><code>git clone https://github.com/your-username/hacktoberfest.git</code> </pre> </li>
 <li>Create a branch<br/> <pre><code>git checkout -b branch-name</code> </pre> </li>
 <li>Make your changes (choose from any task)</li>
-<li>Commit and push<br/> <pre><code>
+<li>Commit and push<br/> 
+    <pre>
+    <code>
 git add .
 git commit -m 'Commit message'
-git push origin branch-name</code> </pre> </li>
+git push origin branch-name
+    </code>
+    </pre>
+</li>
 <li><em>Star this repository</em> </li>
 <li>Create a new pull request from your forked repository (Click the <code>New Pull Request</code> button located at the top of your repo)</li>
 <li>Wait for your PR review and merge approval!</li>
