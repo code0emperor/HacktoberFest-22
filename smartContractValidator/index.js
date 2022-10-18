@@ -10,8 +10,10 @@ form.addEventListener("submit", async (e) => {
   let file = e.target.uploadFile.files[0];
 
   let file_path = file.path;
+  // replace spaces in the file paths with escape characters
   file_path = file_path.replaceAll(" ", "\\ ");
 
+  // TODO: replace command to execute the smart contract cleaner
   let command = `cat ${file_path}`;
   exec(command, (err, stdout, stderr) => {
     if (err) {
