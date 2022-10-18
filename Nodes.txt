@@ -1,0 +1,40 @@
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    explicit TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+
+TreeNode* create() {
+	int bin; cin>>bin;
+	if(bin == -1) return nullptr;
+	auto *root = new TreeNode(bin);
+	root->left = create();
+	root->right = create();
+	return root;
+}
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    explicit ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+ListNode* create() {
+	ListNode *head = nullptr;
+	int bin; cin>>bin;
+	if(bin != -1) head = new ListNode(bin);
+	else return head;
+	ListNode* temp = head;
+	cin>>bin;
+	while(bin != -1) {
+		temp->next = new ListNode(bin);
+		temp = temp->next;
+		cin>>bin;
+	}
+	return head;
+}
